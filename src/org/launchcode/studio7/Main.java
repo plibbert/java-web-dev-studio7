@@ -2,6 +2,17 @@ package org.launchcode.studio7;
 
 public class Main {
 
+    public interface OpticalDisc
+    {
+        final String DISC_WRITING_TOOL = "Laser";
+
+        void writeDisc();
+
+        void spinDisc();
+
+        void storeData();
+    }
+
     public static void main(String[] args){
 
         // TODO: Declare and initialize a CD and a DVD object.
